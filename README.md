@@ -1,10 +1,10 @@
-# Web Dev Quiz
+# Web Dev Quiz 
 
 A browser-based multiple-choice quiz app built with **HTML, CSS and JavaScript only**. No frameworks, no libraries, no API keys.
 
-## Features
+## Features :-
 
-- 10 questions stored in a JavaScript array of objects
+- 10 questions stored in a JavaScript array of objects 
 - One question at a time, with clickable options
 - Instant feedback: correct answers turn green, wrong answers turn red
 - Options are disabled after an answer, so you cannot score twice
@@ -18,7 +18,7 @@ A browser-based multiple-choice quiz app built with **HTML, CSS and JavaScript o
 - **Extra feature 3:** Keyboard shortcuts: press `1` to `4` to choose an option, and `Enter` for Next
 - Responsive layout for phones, tablets and laptops
 
-## Project Structure
+## Project Structure 
 
 ```
 quiz-app/
@@ -33,7 +33,7 @@ quiz-app/
 1. Download or clone this repository.
 2. Open the folder and double-click `index.html`, or open it in your browser.
 
-No installation or server is needed.
+No installation or server is needed 👆.
 
 ## How It Works
 
@@ -44,7 +44,7 @@ No installation or server is needed.
 - **Results:** `showResult()` calculates the score, saves the best score, and builds the review list.
 - **Saved data:** `localStorage` keeps two values: `quizTheme` (light or dark) and `quizBestScore`.
 
-## Customise the Quiz
+## Customise the Quiz 🤔
 
 To add or change a question, edit the `QUESTIONS` array in `script.js`:
 
@@ -52,7 +52,7 @@ To add or change a question, edit the `QUESTIONS` array in `script.js`:
 {
   question: "Your question here?",
   options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-  answer: 0   // index of the correct option: 0, 1, 2 or 3
+  answer: 0   
 }
 ```
 
@@ -74,6 +74,6 @@ Keyboard shortcuts 1 to 4 need exactly four options per question.
 
 https://quiz-app-prince.netlify.app
 
-## Author
+## Author ✍️
 
    Prince Dandge | URN No: E25B031504 | Ajeenkya DY Patil College, Pune
